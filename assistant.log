@@ -1,0 +1,12 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 596-306-660
+INFO:httpx:HTTP Request: GET https://api.openai.com/v1/assistants/asst_yournewassistantID "HTTP/1.1 404 Not Found"
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2024 15:41:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2024 15:41:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2024 15:41:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2024 15:41:53] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=DZACAgl1Aur034xnA5LQ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Oct/2024 15:41:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
