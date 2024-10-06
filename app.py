@@ -8,9 +8,11 @@ import re
 # app will run at: http://127.0.0.1:5000/
 
 # set up logging in the assistant.log file
+
 log = logging.getLogger("assistant")
 
 logging.basicConfig(filename = "assistant.log", level = logging.INFO)
+
 
 from openai import OpenAI
 
