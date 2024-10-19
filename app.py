@@ -29,6 +29,8 @@ chat_history = [
     {"role": "system", "content": "Hey there! How can I assist you with your learning today?"},
 ]
 
+
+
 # Start by getting the assistant_id and thread_id and returning them
 @app.route("/get_ids", methods=["GET"])
 def get_ids():
@@ -55,7 +57,7 @@ def get_messages():
 # Replace "asst_yournewassistantID" with your assistant ID
 def create_assistant():
     global assistant_id
-    my_assistant = client.beta.assistants.retrieve(assistant_id = "asst_yournewassistantID")
+    my_assistant = client.beta.assistants.retrieve(assistant_id = "asst_yBNm3208hoAUG7WyIHafZJQL")
     assistant_id = my_assistant.id
     return my_assistant
 
